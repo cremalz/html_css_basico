@@ -48,6 +48,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 
 }
 
@@ -136,3 +137,13 @@ font-weight: 600;
 
 }
 
+
+@media(max-width:1200px){
+    
+    .apresentacao {
+ flex-direction: column-reverse;
+
+
+
+}
+}
