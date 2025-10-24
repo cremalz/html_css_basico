@@ -139,11 +139,19 @@ font-weight: 600;
 
 
 @media(max-width:1200px){
-    
-    .apresentacao {
- flex-direction: column-reverse;
-
-
+  
+ .cabecalho{
+    padding: 105;  
+}
+.cabecalho__menu{
+   justify-content: center;
 
 }
+
+    
+
+    .apresentacao {
+ flex-direction: column-reverse;
+}
+
 }
